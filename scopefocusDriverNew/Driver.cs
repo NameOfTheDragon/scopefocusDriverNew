@@ -80,7 +80,7 @@ namespace ASCOM.scopefocus6
 #if FOCUSER2
     [Guid("8191d16b-5e9b-45ff-8cec-001d9ce0c329")]
     [ProgId("ASCOM.scopefocus62.Focuser")]
-    [ServedClassName("scopefocus62 Focuser")]
+    [ServedClassName("scopefocus6 Focuser2")]
         [ComVisible(true)]
 #else
     [Guid("837ce112-da1f-49c2-b933-628e8ea7ec15")]
