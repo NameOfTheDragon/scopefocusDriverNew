@@ -1,13 +1,13 @@
 ﻿// This file is part of the scopefocusDriverNew project
 // 
 // File: Driver.cs  Created: 2017-08-09@20:28
-// Last modified: 2017-08-09@23:22
+// Last modified: 2017-08-10@00:53
 
 using System.Runtime.InteropServices;
 
 namespace ASCOM.scopefocus6
     {
-    [Guid("837ce112-da1f-49c2-b933-628e8ea7ec15")]
+    [Guid("622b8413-a845-4039-ab7b-404b4d7ff6b1")]
     [ProgId(InstanceId)]
     [ComVisible(true)]
     public partial class Focuser

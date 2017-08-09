@@ -66,15 +66,8 @@ namespace ASCOM.scopefocus6
 
 
     [ClassInterface(ClassInterfaceType.None)]
-
-
-    // remd 8-8-17
-    //[Guid("837ce112-da1f-49c2-b933-628e8ea7ec15")]
-    //[ClassInterface(ClassInterfaceType.None)]
     public partial class Focuser : IFocuserV2
     {
-
-
 
         //****** add
         //  private Config config = new Config();
