@@ -1,0 +1,27 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\ASCOM.scopefocus62.Focuser]
+@="ASCOM.scopefocus6.Focuser"
+
+[HKEY_CLASSES_ROOT\ASCOM.scopefocus62.Focuser\CLSID]
+@="{8191D16B-5E9B-45FF-8CEC-001D9CE0C329}"
+
+[HKEY_CLASSES_ROOT\CLSID\{8191D16B-5E9B-45FF-8CEC-001D9CE0C329}]
+@="ASCOM.scopefocus6.Focuser"
+
+[HKEY_CLASSES_ROOT\CLSID\{8191D16B-5E9B-45FF-8CEC-001D9CE0C329}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ASCOM.scopefocus6.Focuser"
+"Assembly"="ASCOM.scopefocus62.Focuser, Version=6.2.6430.17202, Culture=neutral, PublicKeyToken=5a596dde3293c610"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{8191D16B-5E9B-45FF-8CEC-001D9CE0C329}\InprocServer32\6.2.6430.17202]
+"Class"="ASCOM.scopefocus6.Focuser"
+"Assembly"="ASCOM.scopefocus62.Focuser, Version=6.2.6430.17202, Culture=neutral, PublicKeyToken=5a596dde3293c610"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{8191D16B-5E9B-45FF-8CEC-001D9CE0C329}\ProgId]
+@="ASCOM.scopefocus62.Focuser"
+
+[HKEY_CLASSES_ROOT\CLSID\{8191D16B-5E9B-45FF-8CEC-001D9CE0C329}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
