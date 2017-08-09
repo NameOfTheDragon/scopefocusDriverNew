@@ -3,18 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scopefocusDriverNew", "scopefocusDriverNew\scopefocusDriverNew.csproj", "{64308775-BD4A-469C-BCAB-3ED830B811AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scopefocusDriverA", "scopefocusDriverNew\scopefocusDriverA.csproj", "{64308775-BD4A-469C-BCAB-3ED830B811AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scopefocusArduinoTestApp", "..\scopefocusArduinoTestApp\scopefocusArduinoTestApp\scopefocusArduinoTestApp.csproj", "{8E8D406C-1838-4914-867D-AB602D0EAF3E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scopefocusDriverNew_2", "scopefocusDriverNew\scopefocusDriverNew_2.csproj", "{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EBDDBCD3-D52E-4217-9442-BE19CEF6CD39}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ScopeFocusDriver.Shared", "ScopeFocusDriver.Shared\ScopeFocusDriver.Shared.shproj", "{DDF2A735-F9F4-49CD-AA73-6FFC77FE0A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scopefocusDriverB", "scopefocusDriverB\scopefocusDriverB.csproj", "{17328F3E-C91D-44B2-B9F8-B197F4D208F8}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ScopeFocusDriver.Shared\ScopeFocusDriver.Shared.projitems*{17328f3e-c91d-44b2-b9f8-b197f4d208f8}*SharedItemsImports = 4
+		ScopeFocusDriver.Shared\ScopeFocusDriver.Shared.projitems*{64308775-bd4a-469c-bcab-3ed830b811af}*SharedItemsImports = 4
+		ScopeFocusDriver.Shared\ScopeFocusDriver.Shared.projitems*{ddf2a735-f9f4-49cd-aa73-6ffc77fe0a05}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -44,18 +51,18 @@ Global
 		{8E8D406C-1838-4914-867D-AB602D0EAF3E}.Release|Mixed Platforms.Build.0 = Release|x86
 		{8E8D406C-1838-4914-867D-AB602D0EAF3E}.Release|x86.ActiveCfg = Release|x86
 		{8E8D406C-1838-4914-867D-AB602D0EAF3E}.Release|x86.Build.0 = Release|x86
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Debug|x86.Build.0 = Debug|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Release|x86.ActiveCfg = Release|Any CPU
-		{AEA305BB-0AF2-468F-B6CC-AF77F55AD451}.Release|x86.Build.0 = Release|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{17328F3E-C91D-44B2-B9F8-B197F4D208F8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
